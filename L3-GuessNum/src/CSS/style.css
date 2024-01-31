@@ -1,0 +1,82 @@
+body{
+    background-color: lightblue;
+    user-select: none;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+#startGameButton{
+    position: fixed;
+    background-color: white;
+    color: black;
+    top: 50%;
+    left: 48%;
+    z-index: 1000;
+}
+
+#startGameButton:hover{
+    background-color: darkgray;
+    color: black;
+}
+
+header{
+    position: fixed;
+    height: 20%;
+    width: 100%;
+    top: 0;
+    color: white;
+}
+
+#coverImg{
+    position: fixed;
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 90%;
+}
+
+section{
+    text-align: center;
+    padding-top: 20%;
+}
+
+#guessButton{
+    border: 1px solid black;
+    margin: 2% 46%;
+    background-color: black;
+    color: white;
+}
+
+#guessButton:hover{
+    background-color: white;
+    color: black;
+}
+
+#msgDiv{
+    position: fixed;
+    left: 38%;
+    height: 70%;
+    width: 25%;
+}
+
+#divHeader{
+    width: 100%;
+    height: 5%;
+    border: 1px solid black;
+    padding-top: 5%;
+    color: black;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
